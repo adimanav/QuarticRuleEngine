@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+<RulesCollection>
+  <Rule>
+    <Signal>ATL1</Signal>
+    <Operator>GreaterThan</Operator>
+    <Value>20</Value>
+    <Type>int</Type>
+  </Rule>
+  <Rule>
+    <Signal>ATL1</Signal>
+    <Operator>LessThan</Operator>
+    <Value>50</Value>
+    <Type>int</Type>
+  </Rule>
+  <Rule>
+    <Signal>ATL1</Signal>
+    <Operator>LessThan</Operator>
+    <Value>now</Value>
+    <Type>DateTime</Type>
+  </Rule>
+  <Rule>
+    <Signal>ATL1</Signal>
+    <Operator>Equal</Operator>
+    <Value>foo</Value>
+    <Type>string</Type>
+  </Rule>
+  <Rule>
+    <Signal>ATL2</Signal>
+    <Operator>GreaterThan</Operator>
+    <Value>20</Value>
+    <Type>int</Type>
+  </Rule>
+  <Rule>
+    <Signal>ATL2</Signal>
+    <Operator>LessThan</Operator>
+    <Value>50</Value>
+    <Type>int</Type>
+  </Rule>
+  <Rule>
+    <Signal>ATL2</Signal>
+    <Operator>LessThan</Operator>
+    <Value>now</Value>
+    <Type>DateTime</Type>
+  </Rule>
+  <Rule>
+    <Signal>ATL2</Signal>
+    <Operator>Equal</Operator>
+    <Value>foo</Value>
+    <Type>string</Type>
+  </Rule>
+  <Rule>
+    <Signal>ATL2</Signal>
+    <Operator>LessThan</Operator>
+    <Value>2017-01-01 00:00:00</Value>
+    <Type>DateTime</Type>
+  </Rule>
+</RulesCollection>
+</Root>

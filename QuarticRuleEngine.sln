@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2047
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuarticRuleEngine", "QuarticRuleEngine\QuarticRuleEngine.csproj", "{48A495B2-4502-423F-8440-0DB7C1D18575}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuarticRuleEngineApp", "QuarticRuleEngineApp\QuarticRuleEngineApp.csproj", "{7A8FBE50-3DD1-4FF9-BDD5-05E306826FF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{48A495B2-4502-423F-8440-0DB7C1D18575}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48A495B2-4502-423F-8440-0DB7C1D18575}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48A495B2-4502-423F-8440-0DB7C1D18575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8FBE50-3DD1-4FF9-BDD5-05E306826FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8FBE50-3DD1-4FF9-BDD5-05E306826FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8FBE50-3DD1-4FF9-BDD5-05E306826FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8FBE50-3DD1-4FF9-BDD5-05E306826FF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

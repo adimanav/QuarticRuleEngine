@@ -1,0 +1,21 @@
+﻿<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://tempuri.org/PurchaseOrderSchema.xsd"
+           targetNamespace="http://tempuri.org/PurchaseOrderSchema.xsd"
+           elementFormDefault="qualified">
+  <xsd:element name="RulesCollection">
+    <xsd:complexType>
+      <xsd:sequence>
+        <xsd:element name="Rule" maxOccurs="unbounded">
+          <xsd:complexType>
+            <xsd:sequence>
+              <xsd:element name="Signal" type="xsd:string"/>
+              <xsd:element name="Operator" type="xsd:string"/>
+              <xsd:element name="Value" type="xsd:string"/>
+              <xsd:element name="Type" type="xsd:string"/>
+            </xsd:sequence>
+          </xsd:complexType>
+        </xsd:element>
+      </xsd:sequence>
+    </xsd:complexType>
+  </xsd:element>
+</xsd:schema>
