@@ -33,7 +33,6 @@ namespace QuarticRuleEngine.RulesManager
             if (ExpressionType.TryParse(r.Operator, out tBinary))
             {
                 var right = Expression.Constant(r.Value);
-                // use a binary operation, e.g. 'Equal' -> 'u.Age == 15'
                 expr = Expression.MakeBinary(tBinary, left, right);
             }
             else
@@ -41,7 +40,7 @@ namespace QuarticRuleEngine.RulesManager
                 var method = tProp.GetMethod(r.Operator);
                 var tParam = method.GetParameters()[0].ParameterType;
                 var right = Expression.Constant(r.Value);
-                // use a method call, e.g. 'Contains' -> 'u.Tags.Contains(some_tag)'
+                // use a method call
                 expr = Expression.Call(left, method, right);
             }
 
