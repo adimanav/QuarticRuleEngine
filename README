@@ -12,6 +12,7 @@ About the Code:
 - As requested, I have restricted myself to one day's worth of effort. If I had more time, 
   - I would make the code more extensible.
   - I would serialize the precompiled lambda expressions to disk and fetch them on re-initialization. That time can be cut down if the rules are not modified.
+  - I would improve how the program gets the rules database and also input data. Maybe a GUI if needed.
   - Finally, and this is a big one, I would improve the algorithm by using either the Rete algorithm or Collection-Oriented Match, both complicated algorithms.
 
 How to build and run:
