@@ -14,7 +14,7 @@ Rule Engine to verify input data according to predefined rules.
 * RulesManager uses RulesParser to parse the rules file and populate itself. RulesEngine then uses InputFileParser to get the input data and runs the applicable rules on the data.
 * Have used .NET Lambda expression trees to increase performance. RulesManager compiles and store a lambda expression for each rule and runs it on the data.
 * More data types can be added if necessary. Any .NET data type can be added easily. More operators can also be added. One can get currently supported operators by looking at the ExpressionType .NET class.
-* The runtime performance depends on the rules and will vary. Worst case O(number_of_data_items*number_of_rules_per_signal). Since I'm using dictionaries, lookup is constant time.
+* The runtime performance depends on the rules and will vary. Worst case O(number_of_data_items * number_of_rules_per_signal_per_type). Since I'm using dictionaries, lookup is constant time.
 * As requested, I have restricted myself to one day's worth of effort. If I had more time, 
   * I would add unit tests and/or integration tests. Currently I've only done manual testing due to lack of time.
   * I would make the code more extensible.
