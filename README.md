@@ -38,6 +38,7 @@ dotnet clean
 dotnet build
 dotnet run
 ```
+Please note that ```dotnet clean``` is required or the rules won't get updated.
 
 ## How to change input JSON data
 
@@ -48,3 +49,4 @@ dotnet clean
 dotnet build
 dotnet run
 ```
+Please note that ```dotnet clean``` is required or the input data won't get updated.
