@@ -1,5 +1,5 @@
 Prerequisites:
-- .NET Core 2.0 SDK is required on whichever platform you are using.
+- .NET Core 2.0 SDK on Linux/MacOS or Visual Studio 2017 on Windows.
 
 About the Code:
 
