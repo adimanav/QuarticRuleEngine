@@ -10,7 +10,7 @@ About the Code:
 - More data types can be added if necessary. Any .NET data type can be added easily. More operators can also be added. One can get currently supported operators by looking at the ExpressionType .NET class.
 - The runtime performance depends on the rules and will vary. Worst case O(number_of_data_items*number_of_rules_per_signal). Since I'm using dictionaries, lookup is constant time.
 - As requested, I have restricted myself to one day's worth of effort. If I had more time, 
-  - I would add unit tests and/or integration tests.
+  - I would add unit tests and/or integration tests. Currently I've only done manual testing due to lack of time.
   - I would make the code more extensible.
   - I would serialize the precompiled lambda expressions to disk and fetch them on re-initialization. That time can be cut down if the rules are not modified.
   - I would improve how the program gets the rules database and also input data. Maybe a GUI if needed.
