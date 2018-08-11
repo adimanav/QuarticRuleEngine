@@ -8,11 +8,11 @@ About the Code:
 How to build and run:
 
 cd QuarticRuleEngineApp
-dotnet rebuild
+dotnet clean
 dotnet run
 
 How to add/remove rules:
-- Edit the file RulesCollection.xml in QuarticRuleEngineApp directory and rebuild and run. Rebuilding is important as otherwiser the modified XML file is not copied over to the execution directory.
+- Edit the file RulesCollection.xml in QuarticRuleEngineApp directory and clean and run. Cleaning is important as otherwise the modified XML file is not copied over to the execution directory.
 
 How to change input JSON data:
-- Edit the file raw_data.json int QuarticRuleEngineApp directory and rebuild and run. Rebuilding is important as otherwiser the modified JSON file is not copied over to the execution directory.
+- Edit the file raw_data.json int QuarticRuleEngineApp directory and clean and run. Rebuilding is important as otherwise the modified JSON file is not copied over to the execution directory.
