@@ -4,6 +4,10 @@ Prerequisites:
 About the Code:
 
 - QuarticRuleEngine directory contains code for the class library and QuarticRuleEngineApp directory contains code for the test application that uses the RulesEngine class.
+- The code is extensible to add more data types if necessary. Have used a list of dictionaries, one for each data type, which map from signal value to a set of rules.
+- Have used .NET Lambda expression trees to increase performance.
+- The runtime performance depends on the rules and will vary. Worst case O(number_of_data_items*number_of_rules_per_signal). Since I'm using dictionaries, lookup is constant time.
+- If I had more time, I would make the code more extensible and improve the algorithm by using either the Rete algorithm or Collection-Oriented Match.
 
 How to build and run:
 
