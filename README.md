@@ -12,7 +12,7 @@ Rule Engine to verify input data according to predefined rules.
 * QuarticRuleEngine directory contains code for the class library in assembly QuarticRuleEngine.dll, and QuarticRuleEngineApp directory contains code for the test application which references the QuarticRuleEngine.dll assembly.
 * RulesEngine is the class of entry to the QuarticRuleEngine.dll assembly class library. RulesEngine instantiates RulesManager. RulesManager keeps an in memory repository of all the rules. Rules can be added, refreshed and obtained as needed.
 * RulesManager uses RulesParser to parse the rules file and populate itself. RulesEngine then uses InputFileParser to get the input data and runs the applicable rules on the data.
-* Have used .NET Lambda expression trees to increase performance. RulesManager compiles and store a lambda expression for each rule and runs it on the data.
+* Have used .NET lambda expression trees to increase performance. RulesManager compiles and store a lambda expression for each rule and runs it on the data.
 * More data types can be added if necessary. Any .NET data type can be added easily. More operators can also be added. One can get currently supported operators by looking at the ExpressionType .NET class.
 * The runtime performance depends on the rules and will vary. Worst case O(number_of_data_items * number_of_rules_per_signal_per_type). Since I'm using dictionaries, lookup is constant time.
 * As requested, I have restricted myself to one day's worth of effort. If I had more time, 
