@@ -26,6 +26,7 @@ Rule Engine to verify input data according to predefined rules.
 
 ```
 cd QuarticRuleEngineApp
+dotnet build
 dotnet run
 ```
 ## How to add/remove rules
@@ -34,6 +35,7 @@ dotnet run
 cd QuarticRuleEngineApp
 vi RulesCollection.xml
 dotnet clean
+dotnet build
 dotnet run
 ```
 
@@ -43,5 +45,6 @@ dotnet run
 cd QuarticRuleEngineApp
 vi raw_data.json
 dotnet clean
+dotnet build
 dotnet run
 ```
